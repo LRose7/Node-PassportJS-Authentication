@@ -1,0 +1,12 @@
+<header>
+    <h1>Welcome <%= name %> to PassportJS!</h1>
+
+    <div>
+        <a href="/register">Register</a>
+        <a href="/login">Login</a>
+    </div>
+
+    <form action="/logout?_method=DELETE" method="POST">
+        <button type="submit">Log out</button>
+    </form>
+</header>
